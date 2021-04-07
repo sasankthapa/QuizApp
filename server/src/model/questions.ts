@@ -1,13 +1,5 @@
 import mongoose, { Schema} from 'mongoose';
-import {IOptionDocument, IQuestionDocument} from '../types/question.types';
-
-const optionSchema=new Schema<IOptionDocument>({
-    option:{
-        type:String,
-        required:true,
-        trim:true
-    }
-});
+import {IQuestionDocument} from '../types/question.types';
 
 const questionSchema=new Schema<IQuestionDocument>({
     question:{
@@ -27,6 +19,6 @@ const questionSchema=new Schema<IQuestionDocument>({
     }
 })
 
-const Question=mongoose.model('Question',questionSchema);
+const Question=mongoose.model<IQuestionDocument>('Question',questionSchema);
 
 export default Question;

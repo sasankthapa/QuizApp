@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.App {
+    text-align: center;
+    padding:5px 20vh;
+}
+
+.questionContainer{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+@media(max-width:500px){
+    .App{
+        margin-left: 5px;
+        padding: 0;
+    }
+}
+
+.summaryContainer{
+    margin: 20px;
+    border-bottom: 1px solid black;
+}

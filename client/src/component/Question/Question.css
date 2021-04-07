@@ -1,0 +1,30 @@
+.question{
+    margin: 10px;
+}
+
+.formControl{
+    margin-top: 10px;
+}
+
+.formControl.button{
+    width:100%;
+    text-align: center;
+}
+
+.formControl input{
+    margin-right: 5px;
+}
+
+.correct{
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.incorrect{
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: red;
+}
