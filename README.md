@@ -2,7 +2,7 @@
 
 We are building a simple Multiple Choice Question quiz app.
 
-Here, I used the MERN stack because I am most familiar with this stack.
+Here, I used the MERN stack with typescript.
 
 We only have the Questions table in the database with attributes:
 * Question title
