@@ -15,6 +15,6 @@ app.get('/',(_,res)=>{
 
 app.use(QuestionRouter);
 
-app.listen(3001, ()=>{
-    console.log('App is listening on 3001');
+app.listen(process.env.port, ()=>{
+    console.log(`App is listening on ${process.env.port}`);
 })
